@@ -1,0 +1,176 @@
+.conteudoSecundario {
+    margin-top: 6%;
+    
+}
+
+.conteudoSecundario h4 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.8rem;
+    border-top: solid 2px #fff;
+    width: 30%;
+    margin: auto;
+}
+
+.conteudoSecundario .apresentacao {
+    text-align: center;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.conteudoSecundario .apresentacao p {
+    padding: 19px 0px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    width: 86%;
+    letter-spacing: 1.2px;
+    margin: auto;
+}
+
+mark {
+    background-color: var(--color-5);
+    padding: 6px 2px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(to left, var(--color-1), var(--color-5));
+    max-width: 850px;
+    min-width: 50px;
+    text-align: center;
+    margin: 0px auto 30px auto ;
+    padding: 14px;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: var(--shadow);
+}
+
+.projetos .proj1 {
+    background-color: gray;
+    padding: 15px;
+    border-radius: 12px;
+    position: relative;
+    height: 50%;
+    box-shadow: var(--shadow);
+    max-width: 200px;
+    min-width: 50px;
+}
+
+.projetos .proj1 .logoProjeto {
+    background-color: white;
+    
+    margin-bottom: 12px;
+}
+
+.projetos .proj1 .sinopseProjeto {
+    background-color: white;
+    padding: 5px 20px;
+    margin-bottom: 12px;
+}
+
+.projetos .proj1 .linkProjeto {
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.projetos .proj2 {
+    background-color: gray;
+    padding: 15px;
+    border-radius: 12px;
+    position: relative;
+    height: 50%;
+    box-shadow: var(--shadow);
+    max-width: 200px;
+    min-width: 50px;
+    
+}
+
+.projetos .proj2 .logoProjeto {
+    background-color: white;
+    
+    margin-bottom: 12px;
+}
+
+.projetos .proj2 .sinopseProjeto {
+    background-color: white;
+    padding: 5px 20px;
+    margin-bottom: 12px;
+}
+
+.projetos .proj2 .linkProjeto {
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.projetos .proj3 {
+    background-color: gray;
+    padding: 15px;
+    border-radius: 12px;
+    position: relative;
+    height: 50%;
+    box-shadow: var(--shadow);
+    max-width: 200px;
+    min-width: 50px;
+    
+}
+
+.projetos .proj3 .logoProjeto {
+    background-color: white;
+    
+    margin-bottom: 12px;
+}
+
+.projetos .proj3 .sinopseProjeto {
+    background-color: white;
+    padding: 5px 20px;
+    margin-bottom: 12px;
+}
+
+.projetos .proj3 .linkProjeto {
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.projetos .proj4 {
+    background-color: gray;
+    padding: 15px;
+    border-radius: 12px;
+    position: relative;
+    height: 50%;
+    box-shadow: var(--shadow);
+    max-width: 200px;
+    min-width: 50px;
+    
+}
+
+.projetos .proj4 .logoProjeto {
+    background-color: white;
+    
+    margin-bottom: 12px;
+}
+
+.projetos .proj4 .sinopseProjeto {
+    background-color: white;
+    padding: 5px 20px;
+    margin-bottom: 12px;
+}
+
+.projetos .proj4 .linkProjeto {
+    background-color: white;
+    padding: 5px 20px;
+}
+
+h5 {
+    
+    background-color: black;
+    color: white;
+    font-size: 1.9rem;
+    width: 853px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-radius: 12px 12px 0px 0px;
+}

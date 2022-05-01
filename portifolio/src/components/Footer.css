@@ -1,0 +1,14 @@
+footer.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 2rem;
+    border-top: solid 1px #FFF;
+    background: linear-gradient(68.15deg , var(--color-1), var(--color-4));
+}
+
+
+footer.footer > p {
+    padding: 12px;
+}

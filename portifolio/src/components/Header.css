@@ -1,0 +1,32 @@
+.header {
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px #fff;
+}
+
+.header div {
+    width: 100px;
+}
+
+.header div img {
+    padding: 15px;
+    width: 100%;
+}
+
+.header h1:hover {
+    animation: flipTitle 1s;
+    
+}
+
+
+
+
+@keyframes flipTitle {
+    from {
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}

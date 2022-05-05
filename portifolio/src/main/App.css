@@ -1,23 +1,19 @@
 :root {
-    --bg-blue: #000561;
-
-
+    
     --header-height: 80px;
-    --logo-height: 15px;
     --footer-height: 80px;
-
-
-    --color-1: #8982D9;
-    --color-2: #82A9D9;
-    --coloe-3: #9BABF0;
-    --color-4: #95DBF8;
-    --color-5: #B895F8;
+    --header-media-height: 500px;
 
     --shadow: 
         0 2px 23px 0 rgba(0,0,0, .1),
         0 2px 49px 0 rgba(0, 0, 0, 0.06);
     ;
+
+    --shadow-hover: 
+        0 2px 23px 0 rgba(0, 0, 0, 0.545)
+    ;
 }
+
 
 * {
     margin: 0;
@@ -43,7 +39,7 @@
         "footer footer"
     ;
     height: 100vh;
-    background: linear-gradient(68.15deg , var(--color-1), var(--color-4));
+    background: linear-gradient(68.15deg , #2F2325, #6D4943);
 }
 
 header.header {

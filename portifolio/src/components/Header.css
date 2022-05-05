@@ -1,5 +1,5 @@
 .header {
-    background: none;
+    background: linear-gradient(68.15deg , #2f232500, #82564C);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,8 +20,13 @@
     
 }
 
+.header .logo  {
+    width: 132px;
+}
 
-
+.header .logo img {
+    width: 100%;
+}
 
 @keyframes flipTitle {
     from {

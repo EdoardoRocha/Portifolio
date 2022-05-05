@@ -1,5 +1,5 @@
 main.main {
-    background: linear-gradient(68.15deg , var(--color-1), var(--color-4)) ;
+    background: linear-gradient(68.15deg , #2F2325,#86584E );
 }
 
 
@@ -19,7 +19,7 @@ main.main section.conteudoPrincipal h2 {
 }
 
 main.main section.conteudoPrincipal div.apresentacao div.projeto1 {
-    background:linear-gradient( to left, var(--color-1), var(--color-5)) ;
+    background: rgba(128, 128, 128, 0.591);
     padding: 30px;
     text-align: center;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@ main.main section.conteudoPrincipal div.apresentacao div.projeto1 {
     box-shadow: var(--shadow);
 }
 main.main section.conteudoPrincipal div.apresentacao div.projeto2 {
-    background:linear-gradient( to left, var(--color-1), var(--color-5)) ;
+    background:rgba(128, 128, 128, 0.591);
     padding: 30px;
     text-align: center;
     border-radius: 50%;
@@ -38,7 +38,7 @@ main.main section.conteudoPrincipal div.apresentacao div.projeto2 {
     box-shadow: var(--shadow);
 }
 main.main section.conteudoPrincipal div.apresentacao div.projeto3 {
-    background:linear-gradient( to left, var(--color-1), var(--color-5)) ;
+    background:rgba(128, 128, 128, 0.591);
     padding: 30px;
     text-align: center;
     border-radius: 50%;
@@ -62,7 +62,50 @@ main.main section.conteudoPrincipal div.apresentacao div.projeto3:hover {
 @media (max-width: 703px) {
     main.main section.conteudoPrincipal div.apresentacao {
         display: flex;
-        background:linear-gradient( to left, var(--color-1), var(--color-5));
+        flex-direction: column;
+        max-width: 433px;
+        min-width: 90px;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        position: static;
+    }
+
+    main.main section.conteudoPrincipal div.apresentacao div.projeto1 {
+        text-align: center;
+        border-radius: 12px;
+        position: static;
+        margin-bottom: 12px;
+        
+    }
+    main.main section.conteudoPrincipal div.apresentacao div.projeto2 {
+        text-align: center;
+        border-radius: 12px;
+        position: static;
+        margin-bottom: 12px;
+       
+    }
+    main.main section.conteudoPrincipal div.apresentacao div.projeto3 {
+        text-align: center;
+        border-radius: 12px;
+        position: static;
+    }
+}
+
+@media (max-width: 460px) {
+
+    main.main section.conteudoPrincipal h2 {
+        text-align: center;
+        padding: 20px;
+        font-size: 1.8rem;
+    }
+
+    main.main section.conteudoPrincipal div.apresentacao {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        min-width: 90px;
+        margin: auto;
         border-radius: 20px;
         box-shadow: var(--shadow);
         position: static;

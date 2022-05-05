@@ -1,5 +1,5 @@
 import './Header.css';
-import Logo from '../Assets/imgs/noticias.svg'
+import Logo from '../Assets/imgs/bubble-gum-workflow.gif'
 
 
 function Header(props) {

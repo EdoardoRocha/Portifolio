@@ -1,6 +1,5 @@
 .conteudoSecundario {
     margin-top: 6%;
-    
 }
 
 .conteudoSecundario h4 {
@@ -11,11 +10,16 @@
     border-top: solid 2px #fff;
     width: 30%;
     margin: auto;
+    color: black;
+}
+
+h4 {
+    color: black;
 }
 
 .conteudoSecundario .apresentacao {
     text-align: center;
-    font-size: 19px;
+    font-size: 22px;
     font-weight: normal;
 }
 
@@ -26,25 +30,69 @@
     width: 86%;
     letter-spacing: 1.2px;
     margin: auto;
+    color: white;
+    margin-bottom: 34px;
+    
 }
 
-mark {
-    background-color: var(--color-5);
-    padding: 6px 2px;
-}
 
 .projetos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: linear-gradient(to left, var(--color-1), var(--color-5));
-    max-width: 850px;
+    background: linear-gradient(68.05deg, var(--color-1), var(--color-3));
+    max-width: 900px;
     min-width: 50px;
     text-align: center;
     margin: 0px auto 30px auto ;
-    padding: 14px;
+    padding: 15px;
     border-radius: 0px 0px 12px 12px;
     box-shadow: var(--shadow);
+    
+}
+
+@media (max-width: 460px) {
+    .projetos {
+        display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(68.05deg, var(--color-1), var(--color-3));
+    max-width: 200px;
+    min-width: 50px;
+    text-align: center;
+    margin: 0px auto 30px auto ;
+    padding: 15px;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: var(--shadow);
+    }
+
+    .conteudoSecundario h4 {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 1.8rem;
+        border-top: solid 2px #fff;
+        width: 340px;
+        margin: auto;
+        color: black;
+    }
+
+
+    
+
+
+    .conteudoSecundario .apresentacao p {
+        padding: 19px 0px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 300;
+        width: 340px;
+        letter-spacing: 1.2px;
+        margin: auto;
+        color: white;
+        margin-bottom: 34px;
+        
+    }
+
 }
 
 .projetos .proj1 {
@@ -56,6 +104,7 @@ mark {
     box-shadow: var(--shadow);
     max-width: 200px;
     min-width: 50px;
+    margin-top: 10px;
 }
 
 .projetos .proj1 .logoProjeto {
@@ -84,7 +133,7 @@ mark {
     box-shadow: var(--shadow);
     max-width: 200px;
     min-width: 50px;
-    
+    margin-top: 10px;
 }
 
 .projetos .proj2 .logoProjeto {
@@ -113,7 +162,7 @@ mark {
     box-shadow: var(--shadow);
     max-width: 200px;
     min-width: 50px;
-    
+    margin-top: 10px;
 }
 
 .projetos .proj3 .logoProjeto {
@@ -142,7 +191,7 @@ mark {
     box-shadow: var(--shadow);
     max-width: 200px;
     min-width: 50px;
-    
+    margin-top: 10px;
 }
 
 .projetos .proj4 .logoProjeto {
@@ -167,10 +216,76 @@ h5 {
     background-color: black;
     color: white;
     font-size: 1.9rem;
-    width: 853px;
+    max-width: 900px;
+    min-width: 90px;
     margin: auto;
     padding: 20px;
     padding-bottom: 0;
     margin-bottom: 0;
     border-radius: 12px 12px 0px 0px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.contato .cnttEmail {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+
+
+
+.contato .cnttInstagram {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+
+.contato .cnttGithub {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.campIconGithub {
+    margin: auto;
+    text-align: center;
+}
+
+.logoGithub {
+    width: 70%;
+}
+
+.campIconInstagram {
+    margin: auto;
+    text-align: center;
+}
+
+.logoInstagram {
+    width: 70%;
+}
+
+.campIconEmail {
+    margin: auto;
+    text-align: center;
+}
+
+.logoEmail {
+    width: 70%;
 }

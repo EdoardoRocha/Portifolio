@@ -5,7 +5,7 @@ footer.footer {
     padding: 25px;
     font-size: 2rem;
     border-top: solid 1px #FFF;
-    background: linear-gradient(68.15deg , var(--color-1), var(--color-4));
+    background: linear-gradient(68.15deg , #2F2325, #82564C);
 }
 
 

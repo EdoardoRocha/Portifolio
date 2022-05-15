@@ -1,4 +1,4 @@
-import './sectionMain.css'
+/*import './sectionMain.css'
 import LogoGithub from '../Assets/imgs/icons/icons8-github-48.png'
 import LogoInstagram from  '../Assets/imgs/icons/icons8-instagram-48.png'
 import LogoEmail from  '../Assets/imgs/icons/icons8-email-aberto-48.png'
@@ -100,3 +100,4 @@ function Section(props) {
 }
 
 export default Section;
+*/

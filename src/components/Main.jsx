@@ -1,4 +1,5 @@
 import './Main.css';
+import Section from './SectionMain';
 import LogoIcon from '../Assets/imgs/icons/icon-ok-2.png'
 import { Fragment } from 'react';
 
@@ -41,7 +42,7 @@ function Main(props) {
                 </div>
             </section>
             
-            
+            <Section />
         </main>
     </Fragment>
 }
